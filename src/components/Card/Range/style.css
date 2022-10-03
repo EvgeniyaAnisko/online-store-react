@@ -1,0 +1,7 @@
+.book__information-range {
+  width: 100%;
+}
+
+.book__information-range>img {
+  height: 1em;
+}

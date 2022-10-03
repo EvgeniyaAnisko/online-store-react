@@ -1,0 +1,37 @@
+.btns {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+
+.btn,
+.button-more {
+  align-items: center;
+  padding: 12px 16px;
+  gap: 6px;
+  width: inherit;
+  background: #6a983c;
+  border: 2px solid #46760a;
+  border-radius: 12px;
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 22px;
+  color: #ffffff;
+  transition: 0.5s;
+}
+
+.button-wish {
+  background: #f5f5f5;
+  border-radius: 12px;
+  color: #151515;
+}
+
+.button-wish.active {
+  background-color: #46760a;
+}
+
+.btn:hover {
+  background: #46760a;
+}

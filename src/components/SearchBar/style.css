@@ -1,0 +1,17 @@
+.search-bar {
+  font-size: 3rem;
+  text-align: center;
+  width: 100%;
+  padding: 20px;
+}
+
+.search {
+  border: 2px solid green;
+  border-radius: 12px;
+  font-family: inherit;
+  font-size: 1em;
+}
+
+.search::placeholder {
+  font-family: inherit;
+}
